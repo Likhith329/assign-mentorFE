@@ -1,0 +1,41 @@
+.mentstudent{
+    display: flex; margin: 10px; 
+}
+.delbtn{
+    margin: 10px;
+}
+
+.stdname,.stdemail{
+    font-size: 18px; 
+}
+.nameval,.emailval{
+    font-size: 15px; font-weight: 500;
+}
+.mentstudentcard{
+    padding: 10px;
+}
+.mentorname,.mentoremail,.studentname,.studentemail,.mentorinstudent{
+    font-size: 25px;font-weight: 500;
+}
+
+@media (max-width:500px){
+    .mentstudent{
+        display: flex; margin: 5px; 
+    }
+    .delbtn{
+        margin: 5px;
+    }
+    .stdname,.stdemail{
+        font-size: 18px; 
+    }
+    .nameval,.emailval{
+        font-size: 15px; font-weight: 500;
+    }
+    .mentstudentcard{
+        padding: 5px;
+    }
+    .mentorname,.mentoremail,.studentname,.studentemail,.mentorinstudent{
+        font-size: 18px;font-weight: 500;
+    }
+    
+}
