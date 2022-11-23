@@ -33,7 +33,7 @@ function App() {
         </div>
       </nav>
       <Routes>
-        <Route path='/' element={<Homepage/>}/>
+        <Route path='/assign-mentorFE' element={<Homepage/>}/>
         <Route path='/mentorpage' element={<Mentorpage/>}/>
         <Route path='/studentpage' element={<Studentpage/>} />
         <Route path='/createamentor' element={<Creatementor/>} />
